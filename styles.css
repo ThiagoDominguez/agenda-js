@@ -1,0 +1,115 @@
+/* CSS reset */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  html{
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;  
+  }
+  body{
+    background-color: #444;
+    color: rgb(197, 197, 197);
+  }
+  .container{
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+    
+  }
+  .container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+  
+
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem auto;
+
+
+  }
+  .form input{
+    margin: 1rem 0rem;
+    line-height: 1rem;
+    background: none;
+    border:none;
+    outline: none;
+    color: white;
+  }
+  .form input:focus{
+    border-bottom: 1px solid whitesmoke;
+  }
+  .form button{
+    margin: 1rm 0rem;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    height: 3rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
+  .list_contacts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+    margin-top:2rem ;
+    font-size: 1.5rem;
+  
+  }
+  .material-icons{
+    color: red;
+    cursor: pointer;
+    font-size: 1.8  rem;
+  }
