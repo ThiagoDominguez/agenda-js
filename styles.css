@@ -137,8 +137,9 @@ html {
 }
 
 body {
-  background-color: hsla(240deg, 100%, 60%, .5);
-  color: rgba(197, 197, 197, 4);
+  background-color: hsla(200deg, 100%, 60%, .5);
+  color: hsla(280deg, 100%, 30%, .8);
+  font-weight: bold;
 }
 
 .container {
